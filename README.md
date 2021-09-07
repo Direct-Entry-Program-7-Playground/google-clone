@@ -2,5 +2,5 @@
 
 
 ### License
-Copyright © 2021 MRR. All Rights Reserved.
+Copyright © 2021 DEP7. All Rights Reserved.
 License under the [MIT](LICENSE.txt) License.
