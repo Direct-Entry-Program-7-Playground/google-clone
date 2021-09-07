@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+.page__header {
+  justify-content: flex-end;
+  padding: 6px;
+  margin: 4px 2px;
+}
+
 .header {
   display: flex;
   font-size: 0.8125rem;
