@@ -149,3 +149,40 @@
   height: 70px;
   margin-bottom: 20px;
 }
+
+/* footer */
+
+.page__footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.footer__country {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  background: #f2f2f2;
+}
+
+.footer__menu-wrapper {
+  display: flex;
+  background: #f2f2f2;
+  font-size: 14px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footer__menu {
+  display: flex;
+  list-style: none;
+}
+
+.footer__link {
+  padding: 15px;
+}
+
+.footer__link .link {
+  color: rgba(0, 0, 0, 0.57);
+}
