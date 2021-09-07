@@ -1,0 +1,18 @@
+*:not(svg) {
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.gsc-search-button {
+  display: none;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.main__copyright-claim {
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.57);
+}
