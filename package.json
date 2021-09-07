@@ -1,12 +1,15 @@
 {
   "name": "google-clone",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "a vanila html css google clone",
-  "keywords": ["google","clone"],
+  "keywords": [
+    "google",
+    "clone"
+  ],
   "license": "MIT",
   "author": "Manoj Randeni <randeni.ramr@gmail.com>",
   "scripts": {
-    "clean":"rm -rf dist",
+    "clean": "rm -rf dist",
     "build": "npm run clean && parcel build index.html",
     "dev": "parcel watch index.html 404.html",
     "start": "npm run build && npm run dev"
