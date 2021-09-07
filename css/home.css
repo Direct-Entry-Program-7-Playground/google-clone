@@ -36,13 +36,46 @@
 }
 
 .button {
-  padding: 9px 23.9px;
-  /* Todo: remove */
-  background-color: blue;
-  color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.button_primary {
+  background: #1a73e8;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.button_primary:hover {
+  background: #2b7de9;
+  box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%),
+    0 1px 3px 1px rgb(66 133 244 / 15%);
+  color: #fff;
 }
 
 .header__button {
   margin: 0 8px;
+  padding: 0 23px;
 }
