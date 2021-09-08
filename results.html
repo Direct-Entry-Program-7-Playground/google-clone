@@ -26,9 +26,42 @@
       async
       src="https://cse.google.com/cse.js?cx=f2fc3ca0ad90e4092"
     ></script>
-    <div class="search-box">
-      <div class="gcse-searchbox"></div>
+
+    <div class="header">
+      <div class="search-bar__wrapper">
+        <a href="./index.html">
+          <img
+            src="./img/google-logo-small.png"
+            alt="google logo"
+            title="Go to Google Home"
+            class="logo header__logo"
+        /></a>
+        <div class="search-box">
+          <div class="gcse-searchbox"></div>
+        </div>
+      </div>
+      <div class="header__sign-in-wrapper">
+        <div title="Google Apps">
+          <svg
+            class="header__app-icon"
+            fill="#5f6368"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+            ></path>
+          </svg>
+        </div>
+
+        <a
+          class="header__button button button_primary"
+          href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3Fgws_rd%3Dssl&ec=GAZAmgQ"
+          >Sign In</a
+        >
+      </div>
     </div>
+
     <div class="search-result">
       <div class="gcse-searchresults"></div>
     </div>
