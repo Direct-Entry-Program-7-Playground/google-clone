@@ -10,8 +10,8 @@
   "author": "Manoj Randeni <randeni.ramr@gmail.com>",
   "scripts": {
     "clean": "rm -rf docs",
-    "build": "npm run clean && parcel build index.html 404.html results.html --out-dir docs",
-    "dev": "parcel watch index.html 404.html results.html",
+    "build": "npm run clean && parcel build index.html 404.html results.html --out-dir docs --public-url /google-clone/",
+    "dev": "parcel watch index.html --open",
     "start": "npm run build && npm run dev"
   },
   "devDependencies": {
