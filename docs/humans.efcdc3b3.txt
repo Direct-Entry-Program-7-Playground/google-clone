@@ -1,0 +1,24 @@
+# TEAM
+    Developer: Manoj Randeni
+    Contact: randeni.ramr [at] gmail.com
+    Github: https://github.com/ManojRAMR
+    Twitter: https://twitter.com/manoj_r_r
+    Linkedin: https://www.linkedin.com/in/manojrandeni/
+    Online CV: https://manojramr.github.io/CV-Online-Version/
+
+# THANKS
+
+    Ranjith Suranga 
+    https://github.com/Ranjith-Suranga
+
+    IJSE DEP7
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, ParcelJS, HTML5BoilerPlate, Normalize.css, NPM, GitHub
+    
+# SITE  
+    Last update:2021/09/08
+	Language: English
+	Doctype:HTML5
+	IDE: VSCode
